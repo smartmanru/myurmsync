@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<distributive appversion="1228">
+    <deliveries>
+        <delivery doc_any="no" folder="/static/css" name="css" schema_any="no"/>
+        <delivery doc_any="no" folder="static/js" name="js" schema_any="no"/>
+    </deliveries>
+    <components/>
+</distributive>
