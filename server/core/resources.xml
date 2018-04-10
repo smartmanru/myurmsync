@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <resource>
+        <property name="name" value="myurmsync"/>
+        <property name="desc" value="https://github.com/smartmanru/myurmsync"/>
+        <property name="type" value="git"/>
+        <property name="baseurl" value="https://github.com/smartmanru/"/>
+    </resource>
+    <resource>
+        <property name="name" value="smartmanru"/>
+        <property name="desc" value="Stream-Example-Vue-Cli"/>
+        <property name="type" value="git"/>
+        <property name="baseurl" value="https://github.com/smartmanru"/>
+    </resource>
+</resources>

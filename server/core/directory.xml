@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<directory>
+    <system desc="Тестовая система НИД-2" name="NID2test" offline="no">
+        <product monitoring.enabled="no" name="GetStream" offline="no" path="getstream"/>
+    </system>
+</directory>
