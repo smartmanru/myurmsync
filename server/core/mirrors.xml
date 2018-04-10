@@ -3,8 +3,10 @@
     <repository>
         <property name="name" value="core"/>
         <property name="type" value="server"/>
+        <property name="resource" value="myurmsync"/>
+        <property name="repository" value="myurmsync"/>
         <property name="rootpath" value="/"/>
-        <property name="datapath" value="/"/>
+        <property name="datapath" value="server/core"/>
     </repository>
     <repository>
         <property name="name" value="product-GetStream-data"/>
@@ -15,5 +17,13 @@
         <property name="name" value="product-GetStream-meta"/>
         <property name="desc" value="standard meta repository"/>
         <property name="type" value="product_meta"/>
+    </repository>
+    <repository>
+        <property name="name" value="project-GetStream-StreamExampleVueCli"/>
+        <property name="type" value="project"/>
+        <property name="resource" value="smartmanru"/>
+        <property name="repository" value="Stream-ExampleVueCli"/>
+        <property name="rootpath" value="/"/>
+        <property name="datapath" value="/"/>
     </repository>
 </mirrors>

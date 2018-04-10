@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
     <resource>
+        <property name="name" value="buildmachine"/>
+        <property name="type" value="ssh"/>
+    </resource>
+    <resource>
+        <property name="name" value="localhuy"/>
+        <property name="type" value="ssh"/>
+    </resource>
+    <resource>
         <property name="name" value="myurmsync"/>
         <property name="desc" value="https://github.com/smartmanru/myurmsync"/>
         <property name="type" value="git"/>
