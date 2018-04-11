@@ -20,4 +20,9 @@
         <property name="type" value="git"/>
         <property name="baseurl" value="https://github.com/smartmanru"/>
     </resource>
+    <resource>
+        <property name="name" value="urmdebtest"/>
+        <property name="desc" value="192.168.63.122"/>
+        <property name="type" value="ssh"/>
+    </resource>
 </resources>

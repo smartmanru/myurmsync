@@ -6,6 +6,14 @@
         <property name="builder.command" value="./build.sh"/>
         <property name="target.type" value="localpath"/>
         <property name="target.path" value="dist"/>
-        <property name="remote" value="no"/>
+        <property name="remote" value="yes"/>
+    </builder>
+    <builder>
+        <property name="name" value="stream1"/>
+        <property name="buildertype" value="generic"/>
+        <property name="builder.command" value="./build.sh"/>
+        <property name="target.type" value="localpath"/>
+        <property name="target.path" value="dist"/>
+        <property name="remote" value="yes"/>
     </builder>
 </builders>

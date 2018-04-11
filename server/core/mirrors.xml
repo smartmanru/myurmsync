@@ -12,11 +12,19 @@
         <property name="name" value="product-GetStream-data"/>
         <property name="desc" value="standard data repository"/>
         <property name="type" value="product_data"/>
+        <property name="resource" value="myurmsync"/>
+        <property name="repository" value="myurmsync"/>
+        <property name="rootpath" value="/"/>
+        <property name="datapath" value="data/Getstream"/>
     </repository>
     <repository>
         <property name="name" value="product-GetStream-meta"/>
         <property name="desc" value="standard meta repository"/>
         <property name="type" value="product_meta"/>
+        <property name="resource" value="myurmsync"/>
+        <property name="repository" value="myurmsync"/>
+        <property name="rootpath" value="/"/>
+        <property name="datapath" value="meta/GetStream"/>
     </repository>
     <repository>
         <property name="name" value="project-GetStream-StreamExampleVueCli"/>
