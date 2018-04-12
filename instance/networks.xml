@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<infrastructure>
+    <datacenter id="citytech">
+        <network id="WORK" mask="192.168.63.1/16">
+            <host id="urm-debian-test" ip="192.168.63.122" ostype="linux" port="22">
+                <account admin="yes" id="root" resource="buildmachine"/>
+            </host>
+        </network>
+    </datacenter>
+</infrastructure>
