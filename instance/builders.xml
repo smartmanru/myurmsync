@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<builders/>
+<builders>
+    <builder>
+        <property name="name" value="main"/>
+        <property name="buildertype" value="generic"/>
+        <property name="builder.command" value="./build.sh"/>
+        <property name="target.type" value="localpath"/>
+        <property name="target.path" value="."/>
+        <property name="remote" value="yes"/>
+        <property name="hostlogin" value="root@urm-debian-test"/>
+    </builder>
+</builders>
