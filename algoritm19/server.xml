@@ -2,7 +2,7 @@
 <engine>
     <core>
         <property name="chat.using" value="no"/>
-        <property name="connection.jmx.port" value="8522"/>
+        <property name="connection.jmx.port" value="80022"/>
         <property name="dist.appfolder" value="systems"/>
         <property name="dist.basepath" value="platform"/>
         <property name="dist.root" value="@urm.installpath@/dist"/>
