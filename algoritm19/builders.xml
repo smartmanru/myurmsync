@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<builders>
+    <builder>
+        <property name="name" value="gen"/>
+        <property name="buildertype" value="generic"/>
+        <property name="builder.command" value="uname"/>
+        <property name="target.type" value="localpath"/>
+        <property name="target.path" value="/"/>
+        <property name="remote" value="no"/>
+    </builder>
+</builders>

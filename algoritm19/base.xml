@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<base>
+    <category type="account"/>
+    <category type="app">
+        <group desc="test" name="test" offline="no" type="app">
+            <item admin="no" basename="nginx" basesrc_type="installer" basesrcformat_type="singlefile" baseversion="1.0" desc="nginx_test" installpath="/etc/nginx" installscript="nginx.sh" name="nginx" offline="yes" os_type="linux" serveraccess_type="service" srcdir="nginx">
+                <custom/>
+            </item>
+        </group>
+    </category>
+    <category type="host"/>
+</base>
