@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<distributive appversion="1020401">
+    <deliveries>
+        <delivery desc="секция" doc_any="no" folder="section" name="section" schema_any="yes">
+            <distitem custom_deploy="no" custom_get="no" deployname="el1" deployversion="none" distname="el1" extension="zip" name="el1" source="build" srcitem="element1" type="binary"/>
+            <distitem custom_deploy="no" custom_get="no" deployname="element1" deployversion="none" distname="element1" extension="zip" name="element1" source="build" srcitem="element1" type="binary"/>
+            <distitem custom_deploy="no" custom_get="no" deployname="test" deployversion="middash" distname="test" extension="exe" name="test" source="manual" type="binary"/>
+            <confitem name="test_conf" type="dir"/>
+            <schema name="testpostgres"/>
+            <document name="test_docs"/>
+        </delivery>
+        <delivery doc_any="no" folder="section2" name="section2" schema_any="no"/>
+    </deliveries>
+    <components>
+        <component name="ewfrwr"/>
+    </components>
+</distributive>
