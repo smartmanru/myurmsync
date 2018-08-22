@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<environment appversion="16909569" distr-remote="no" envtype="production" envversion="1" name="test2" offline="yes">
+    <custom>
+        <define>
+            <property desc="(inherited)" enumdef="" inherited="yes" name="dbhost" secured="no" type="string" value=""/>
+            <property desc="(inherited)" enumdef="" inherited="yes" name="dbname" secured="no" type="string" value=""/>
+            <property desc="(inherited)" enumdef="" inherited="yes" name="dbport" secured="no" type="string" value=""/>
+            <property desc="(inherited)" enumdef="" inherited="yes" name="dbuser" secured="no" type="string" value=""/>
+            <property desc="(inherited)" enumdef="" inherited="yes" name="srv1.host" secured="no" type="string" value=""/>
+            <property desc="(inherited)" enumdef="" inherited="yes" name="srv1.port" secured="no" type="string" value=""/>
+        </define>
+    </custom>
+    <segment datacenter="voshod" name="main" offline="no">
+        <custom>
+            <property name="dbhost" value="urm-db"/>
+            <property name="dbname" value="demo69"/>
+            <property name="dbport" value="8033"/>
+            <property name="dbuser" value="demo69user"/>
+            <property name="srv1.host" value="urm-demo68-srv1"/>
+            <property name="srv1.port" value="80"/>
+        </custom>
+        <server accesstype="generic" name="srv1" offline="no" ostype="linux" runtype="app">
+            <custom/>
+            <property name="binpath" value=","/>
+            <property name="deploypath" value=","/>
+            <property name="rootpath" value="/home/urmtest/srv3"/>
+            <node account="urmtest@urm-demo68-srv1" dbstandby="no" offline="no" pos="1" type="self">
+                <custom/>
+            </node>
+            <deploy confitem="conf1" deploymode="cold" deploypath="." nodetype="self"/>
+            <deploy deploymode="cold" deploypath="." distitem="service1" nodetype="self"/>
+        </server>
+        <server accesstype="generic" name="srv2" offline="no" ostype="linux" runtype="app">
+            <custom/>
+            <property name="rootpath" value="/home/urmtest/srv2"/>
+            <node account="urmtest@urm-demo68-srv2" dbstandby="no" offline="no" pos="1" type="self">
+                <custom/>
+            </node>
+            <node account="root@urm-demo68-srv2" dbstandby="no" offline="yes" pos="2" type="self">
+                <custom/>
+            </node>
+        </server>
+        <startorder/>
+    </segment>
+</environment>

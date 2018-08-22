@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sources appversion="16909569">
+    <projectset name="demo71" parallel="no" pos="1">
+        <project branch="prod" builder="maven.java8" custom_build="no" custom_get="no" name="demo71" order="1" prod="yes" repodata="/" repopath="/" repository="demo68" resource="usvn" type="buildable">
+            <srcitem basename="demo-multimodule-service1" extension=".jar" internal="no" itempath="demo-multimodule-service1/target" name="service1" type="basic"/>
+            <srcitem basename="demo-multimodule-service2" extension=".jar" internal="no" itempath="demo-multimodule-service2/target" name="service2" type="basic"/>
+        </project>
+    </projectset>
+</sources>
