@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database appversion="16909833">
+    <administration/>
+    <schema dbname="amavisd_dev" dbtype="postgresql" dbuser="amavisd_dev" desc="База данных антиспама" name="amavis"/>
+    <schema dbname="cluebringer_dev" dbtype="postgresql" dbuser="cluebringer_dev" desc="Ключи доступа" name="cluebringer"/>
+    <schema dbname="fs_dev" dbtype="postgresql" dbuser="postgres" desc="База данных почтовых сообщений" name="fs"/>
+    <schema dbname="srch_dev" dbtype="postgresql" dbuser="srch_dev" desc="База данных индексатора" name="srch"/>
+    <schema dbname="vmail_dev" dbtype="postgresql" dbuser="vmailadmin_dev" desc="База данных информации о почтовых вложениях" name="vmail"/>
+</database>
