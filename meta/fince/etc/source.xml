@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sources appversion="16909833">
+    <projectset name="git_project" parallel="no" pos="1">
+        <project builder="make" custom_build="no" custom_get="no" name="finche" order="1" prod="no" repodata="/" repopath="/" repository="fiche" resource="git_smart" type="buildable">
+            <srcitem basename="fiche" extension=".tar" internal="no" itempath="." name="fiche" type="basic"/>
+        </project>
+    </projectset>
+</sources>
