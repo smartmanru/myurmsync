@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<product appversion="120">
-    <property name="minor" value="major.quaterly"/>
-    <property name="major" value="minor.weekly"/>
-    <property name="urgentany" value="yes"/>
-</product>

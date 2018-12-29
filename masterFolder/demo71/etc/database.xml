@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<database appversion="16909569">
-    <administration/>
-    <schema dbname="main" dbtype="postgresql" dbuser="demo" name="main"/>
-    <schema dbname="urmdb" dbtype="postgresql" dbuser="urm" name="urmdb"/>
-</database>

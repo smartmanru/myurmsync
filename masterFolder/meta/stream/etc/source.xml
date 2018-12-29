@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<sources appversion="1020301">
-    <projectset name="main">
-        <project builder="main" custom_build="no" custom_get="no" name="stream" order="1" prod="yes" repodata="/" repopath="/" repository="Stream-Example-Vue-Cli" resource="smartmanru" type="buildable">
-            <srcitem basename="dist" extension=".tar" internal="no" itempath="." name="dist" type="basic"/>
-        </project>
-    </projectset>
-</sources>
