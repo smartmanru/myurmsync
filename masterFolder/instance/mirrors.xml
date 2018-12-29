@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mirrors>
+    <repository>
+        <property name="name" value="core"/>
+        <property name="type" value="server"/>
+        <property name="resource" value="smartmanru"/>
+        <property name="repository" value="myurmsync"/>
+        <property name="rootpath" value="/"/>
+        <property name="datapath" value="instance"/>
+    </repository>
+    <repository>
+        <property name="name" value="product-stream-data"/>
+        <property name="desc" value="standard data repository"/>
+        <property name="type" value="product_data"/>
+    </repository>
+    <repository>
+        <property name="name" value="product-stream-meta"/>
+        <property name="desc" value="standard meta repository"/>
+        <property name="type" value="product_meta"/>
+    </repository>
+    <repository>
+        <property name="name" value="project-stream-stream"/>
+        <property name="type" value="project"/>
+        <property name="resource" value="smartmanru"/>
+        <property name="repository" value="Stream-Example-Vue-Cli"/>
+        <property name="rootpath" value="/"/>
+        <property name="datapath" value="/"/>
+    </repository>
+</mirrors>

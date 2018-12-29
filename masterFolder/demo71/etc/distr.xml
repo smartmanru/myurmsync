@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<distributive appversion="16909569">
+    <deliveries>
+        <delivery doc_any="no" folder="services" name="services" schema_any="no">
+            <distitem custom_deploy="no" custom_get="no" customversion="no" deployname="service1" deployorder="0" deployversion="middash" distname="service1" extension=".jar" name="service1" source="build" srcitem="service1" type="binary"/>
+            <distitem custom_deploy="no" custom_get="no" customversion="no" deployname="service2" deployorder="0" deployversion="middash" distname="service2" extension=".jar" name="service2" source="build" srcitem="service2" type="binary"/>
+            <confitem name="conf1" templates="srv1.conf application.yml" type="files"/>
+            <confitem name="conf2" templates="srv2.conf" type="files"/>
+            <confitem files="srv3.conf" name="conf3" type="files"/>
+            <schema name="main"/>
+            <schema name="urmdb"/>
+        </delivery>
+    </deliveries>
+    <components>
+        <component name="component"/>
+        <component name="component1"/>
+    </components>
+</distributive>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<directory>
+    <system name="Test_A">
+        <property name="name" value="Test_A"/>
+        <property name="desc" value="Тестовая ИС"/>
+        <property name="offline" value="no"/>
+        <product name="test_pp">
+            <property name="name" value="test_pp"/>
+            <property name="desc" value="Тестовый ПП"/>
+            <property name="path" value="test_pp"/>
+            <property name="offline" value="no"/>
+            <property name="monitoring.enabled" value="no"/>
+            <property name="major.first" value="1"/>
+            <property name="major.last" value="0"/>
+            <property name="prod.lasttag" value="0"/>
+            <property name="prod.lasturgent" value="0"/>
+            <property name="next.major.first" value="1"/>
+            <property name="next.major.last" value="1"/>
+            <property name="prod.nexttag" value="1"/>
+            <property name="prod.nexturgent" value="1"/>
+            <policy>
+                <property name="urgentany" value="yes"/>
+            </policy>
+        </product>
+    </system>
+</directory>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<directory>
+    <system desc="nid2test" name="nid2test" offline="no">
+        <product monitoring.enabled="no" name="stream" offline="no" path="stream"/>
+    </system>
+</directory>

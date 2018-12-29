@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<distributive appversion="16909833">
+    <deliveries>
+        <delivery doc_any="no" folder="finche" name="sec" schema_any="no">
+            <distitem custom_deploy="no" custom_get="no" customversion="no" deployname="fiche" deployorder="0" deployversion="none" distname="fiche" extension=".tar" name="fiche" source="build" srcitem="fiche" type="binary"/>
+        </delivery>
+    </deliveries>
+    <components/>
+</distributive>
