@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<distributive appversion="16910105">
+    <deliveries>
+        <delivery code="sec" doc_any="no" folder="finche" name="sec" schema_any="no">
+            <distitem code="fiche" custom_deploy="no" custom_get="no" customversion="no" deployname="fiche" deployorder="0" deployversion="none" distname="fiche" extension=".tar" name="fiche" source="build" srcitem="fiche" srcproject="finche" type="binary"/>
+            <distitem code="qweq" custom_deploy="no" custom_get="no" customversion="no" deployname="qweq" deployorder="0" deployversion="none" distname="qweqwe" extension=".deb" name="qweqw" source="build" srcitem="qweqwe" srcproject="test" type="package"/>
+        </delivery>
+    </deliveries>
+    <components/>
+</distributive>
