@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<environment access="urm.space.urmweb" appversion="16910105" code="test" distr-remote="no" envtype="uat" envversion="6" name="test" offline="no">
+    <custom/>
+    <segment code="seg" datacenter="FIRSTVDS" name="seg" offline="no">
+        <custom/>
+        <server accesstype="generic" code="fiche" name="fiche" offline="no" ostype="linux" runtype="webapp">
+            <custom/>
+            <property name="binpath" value="."/>
+            <property name="deploypath" value="."/>
+            <property name="rootpath" value="/home/urmweb/fiche"/>
+            <node account="root@urm.space" dbstandby="no" offline="yes" pos="1" type="self">
+                <custom/>
+            </node>
+            <node account="urmweb@urm.space" dbstandby="no" offline="yes" pos="2" type="admin">
+                <custom/>
+            </node>
+        </server>
+        <startorder/>
+    </segment>
+</environment>
