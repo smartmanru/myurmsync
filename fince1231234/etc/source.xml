@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sources appversion="16910105">
+    <projectset code="asdasd" name="asdasd" parallel="no" pos="2">
+        <project builder="ant.generic" code="test" custom_build="no" custom_get="no" name="test" order="1" prod="no" repodata="/" repopath="/" repository="deployment" resource="svn.phoenixg" type="buildable">
+            <srcitem basename="qweqwe" code="qweqwe" extension=".deb" internal="no" itempath="q" name="qweqwe" type="package"/>
+        </project>
+    </projectset>
+    <projectset code="git_project" name="git_project" parallel="no" pos="1">
+        <project builder="make" code="finche" custom_build="no" custom_get="no" name="finche" order="1" prod="no" repodata="/" repopath="/" repository="fiche" resource="git_smart" type="buildable">
+            <srcitem basename="fiche" code="fiche" extension=".tar" internal="no" itempath="." name="fiche" type="basic"/>
+        </project>
+    </projectset>
+</sources>
